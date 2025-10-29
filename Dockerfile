@@ -7,6 +7,7 @@ COPY pom.xml .
 RUN mvn dependency:go-offline
 
 # Agora copiar o código-fonte
+#testando
 COPY src ./src
 
 # Build do projeto (gera o JAR)
